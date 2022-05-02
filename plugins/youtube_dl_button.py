@@ -87,8 +87,8 @@ async def youtube_dl_call_back(bot, update):
                 youtube_dl_url = youtube_dl_url[o:o + l]
     
     await bot.edit_message_text(
-        text = "Downloading your Link.."
-        chat_id = update.message.chat.id
+        text = "Downloading your Link..",
+        chat_id = update.message.chat.id,
         message_id = update.message.id
     )
 
